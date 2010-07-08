@@ -8,11 +8,23 @@ Y8,        88          `8b  88
   `"Y88888P"    "Y88888P"   88           
 
 
-
-
 - Flash
- - N√•r bruker man flash?
- - Fordeler og ulemper med flash
+Pros:
+	- Flash animation is easy to create and easy to view
+	- Flash is independent of browsers and operating systems.  It can be viewed correctly by anyone who has the Flash plug-in.
+	- Flash have higher click-through rates than static gifs.
+	- Flash can be quick to develop
+	- Video works well in Flash applications.  It doesn’t need a plug-in that’s dependent on a specific operating system like MediaPlayer or QuickTime.
+
+Cons:
+	-Search engines crawl text, not Flash intros and bannersIt’s tough to get an all-Flash website to rank high in search engines. Search engines have problems indexing images, even text rendered as an image.  HTML pages get indexed in search engines like Google while Flash pages do not.
+	- Plugin - version control and upgrades for the users
+	- Accessibility
+	- Touch devices 
+
+	Steve Jobs on Flash -> http://www.apple.com/hotnews/thoughts-on-flash/
+
+
 
 -->
 <!-- 
@@ -51,7 +63,124 @@ Opera 10?
 88        88       88       88     `8'     88  88888888888 
 
 - HTML -> Data og struktur
- - Syntax og struktur
+
+<!-->
+<!DOCTYPE>
+<a>
+<abbr>
+<acronym>
+<address>
+<applet>
+<area>
+<article>
+<aside>
+<audio>
+<b>
+<base>
+<basefont>
+<bdo>
+<big>
+<blockquote>
+<body>
+<br>
+<button>
+<canvas>
+<caption>
+<center>
+<cite>
+<code>
+<col>
+<colgroup>
+<command>
+<datalist>
+<dd>
+<del>
+<details>
+<dfn>
+<dir>
+<div>
+<dl>
+<dt>
+<em>
+<embed>
+<fieldset>
+<figcaption>
+<figure>
+<font>
+<footer>
+<form>
+<frame>
+<frameset>
+<h1> - <h6>
+<head>
+<header>
+<hgroup>
+<hr>
+<html>
+<i>
+<iframe>
+<img>
+<input>
+<ins>
+<keygen>
+<kbd>
+<label>
+<legend>
+<li>
+<link>
+<map>
+<mark>
+<menu>
+<meta>
+<meter>
+<nav>
+<noframes>
+<noscript>
+<object>
+<ol>
+<optgroup>
+<option>
+<output>
+<p>
+<param>
+<pre>
+<progress>
+<q>
+<rp>
+<rt>
+<ruby>
+<s>
+<samp>
+<script>
+<section>
+<select>
+<small>
+<source>
+<span>
+<strike>
+<strong>
+<style>
+<sub>
+<summary>
+<sup>
+<table>
+<tbody>
+<td>
+<textarea>
+<tfoot>
+<th>
+<thead>
+<time>
+<title>
+<tr>
+<tt>
+<u>
+<ul>
+<var>
+<video>
+<xmp>
+
+
  - HTML5 -> Hva er nytt, n√•r kan du bruke det?
  - Hva kommer RDFa http://www.alistapart.com/articles/introduction-to-rdfa/ 
 
@@ -104,21 +233,56 @@ Y8,                    `8b          `8b
                                         
 
 <style type="text/css" media="screen">
-      body{
-    
-      }
-      #id{
-    
-      }
-      .class{
-    
-      }
-      #id > .scope{
-    
-      }
-      .scope:hover{
-    
-      }
+      body, #id, .class, #id > .scope, .scope:hover{
+	background: #FFF;
+	background-color: rgb(255,255,255);
+	background-color: rgba(255,255,255,.7);
+	background-image: url(image.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	border: 1px solid gray;
+	border-width: 1px 0 1px 0;
+	border-color: #DDD #EEE #EEE #DDD;
+	color: #333;
+	cursor: pointer;
+	content: "-";
+	display: block;
+	direction: rtl;
+	float: left;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: arial;
+	font-style: italic;
+	height: 30px;
+	letter-spacing: -1px;
+	line-height: 1;
+	list-style: none;
+	margin: 0 0 0 0;
+	min-width: 20px;
+	max-height: 30px;
+	opacity: .7;
+	outline: none;
+	outline-color: #DEF;
+	outline-style: double;
+	outline-width: 2px;
+	padding: 0;
+	position: static;
+		top: 0;
+		right: 0;		
+		bottom: 0;
+		left: 0;
+	text-align: left;
+	text-shadow: 0 1px 1px #777;
+	text-indent: 20px;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	vertical-align: middle;
+	width: 35px;
+	white-space: nowrap;
+	word-spacing: -1px;
+	
+}
   
 </style>
 

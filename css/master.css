@@ -1,9 +1,10 @@
-  /* RESETS 
+/* RESETS 
     - eric meyer reset
     - yui
     - blueprint
     - others...  
-  */
+Here's a modified version of meyers:
+*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -12,7 +13,9 @@ small, strike, strong, sub, sup, tt, var,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-abbr, article, aside, audio, canvas, details, figcaption, figure, footer, header, hgroup, mark, meter, nav, output, progress, section, summary, time, video /* html5 */ {
+abbr, article, aside, audio, canvas, details, figcaption, 
+figure, footer, header, hgroup, mark, meter, nav, output, 
+progress, section, summary, time, video /* html5 */ {
 	margin: 0;
 	padding: 0;
 	border: 0;
@@ -67,11 +70,61 @@ blockquote, q {
   src: local("☺"),
     url("font/Fontin_Sans_B_45b.otf") format("opentype"),
 }
-
 body{
-	font-family: "CustomFont", Arial;
+	font-family: Arial;
+	padding: 25px;
+	font-size: 16px;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
+h1, h2, h3, h4, h5, h6{
+	font-family: "CustomFont", Arial;
+}
+h1, h2, h3, h4, h5, h6, p, table, ul{
+		margin: .25em 0 .75em;
 
+}
+h1{
+	font-size: 2.4em;
+}
+h2{
+	font-size: 2em;
+}
+h3{
+	font-size: 1.8em;
+}
+h4{
+	font-size: 1.6em;
+}
+h5{
+	font-size: 1.4em;
+}
+h6{
+	font-size: 1.2em;
+}
+
+section{
+	float:left;
+	max-width: 550px;
+	padding: 0 25px;
+}
+aside{
+	float: right;
+	max-width: 200px;
+}
+table{
+	border: 1px solid gray;
+	border-width: 1px 0 0 1px;	
+}
+th{
+	background: #EEE;
+}
+
+td,th{
+	padding: 5px;
+	border: 1px solid gray;
+	border-width: 0 1px 1px 0;
+}
 
 
