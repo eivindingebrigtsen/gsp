@@ -1,5 +1,3 @@
-<!--                                         
-
   ,ad8888ba,    ad88888ba   88888888ba   
  d8"'    `"8b  d8"     "8b  88      "8b  
 d8'            Y8,          88      ,8P  
@@ -8,7 +6,6 @@ d8'            Y8,          88      ,8P
 Y8,        88          `8b  88           
  Y8a.    .a88  Y8a     a8P  88           
   `"Y88888P"    "Y88888P"   88           
-
 
 - The Browser (webkit, mozilla, IE, opera)
  - The layered cake (HTML, CSS, Javascript)
@@ -21,24 +18,21 @@ Y8,        88          `8b  88
 - CSS -> Utseende, og enkel oppførsel
  - Selectors, syntax og struktur
  - CSS frameworks (960gs, blueprint)
- - CSS 3 -> Quirks, bakoverkompabilitet, browser støtte
+ - CSS 3 -> Quirks, bakoverkompabilitet, browser støtte 
  - @fontface -> the web is more than 8 fonts
  - @media selectors
   - Screen & print
   - device og andre parametre
  - LESS, SASS, CssScaffold
- - Eksempler / oppgave
 
 - Javascript -> Oppførsel
  - Java is to Javascript, what car is to carpet.
- - Quirks i javascript
  - JS Frameworks (jQuery, YUI, Mootools, Ext)
  - Ajax: hva er det, og når bruker du det?
  - JSON & JSONP
  - Javascript på serveren (node.js)
- - Testing av javascript (jsTestDriver, YUI testframework)
+ - Testing av javascript (jsLint, jsTestDriver, YUI testframework)
  - Input escaping, cross site scripting
- - Eksempler/oppgave
 
 - Flash
  - Når bruker man flash?
@@ -54,11 +48,9 @@ Y8,        88          `8b  88
  - Enkel SEO
  - Enkel Accessability
  - Sideoptimalisering:
+  - Fart betyr noe: http://drp.ly/1kqT2m
   - Minifiering, Css sprites, ySlow og pagespeed.
-
-
--->                                     
-
+-->
 <!-- 
                                                                                                          
 88888888ba   88888888ba     ,ad8888ba,   I8,        8        ,8I   ad88888ba   88888888888  88888888ba     ad88888ba   
@@ -72,12 +64,12 @@ Y8,        88          `8b  88
 
 -->
 
+IE 6,7,8,9? 
+Safari
+Firefox 2,3.x,4?
+Opera 10?
+
 
-
-
-
-
-<!-- 
 
 88        88  888888888888  88b           d88  88           
 88        88       88       888b         d888  88           
@@ -87,25 +79,43 @@ Y8,        88          `8b  88
 88        88       88       88   `8b d8'   88  88           
 88        88       88       88    `888'    88  88           
 88        88       88       88     `8'     88  88888888888 
-
--->
-
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>GSP Kurs</title>
-		<meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
-		<link rel="stylesheet" href="master.css" type="text/css" media="screen" title="We got style" charset="utf-8">
-	</head>
-	<body>
-		
-	</body>
-
+  <head>
+    <meta content="text/html; charset=utf-8" http-equiv="Content-Type" />
+    <title>Example Blog</title>
+    <link rel="alternate" type="application/rss+xml" title="Dagbladet.no - forsida" href="http://example.com/rss/" >     
+    <link rel="stylesheet" href="master.css" type="text/css" media="screen" title="We got style" charset="utf-8">
+  </head>
+  <body>
+    <header>
+      <h1>Example.com</h1>      
+      <p>Insert Smart Byline.</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="/">Blog</a></li>
+        <li><a href="/about">About</a></li>
+        <li><a href="/sitemap">Sitemap</a></li>
+      </ul>
+    </nav>
+    <section>
+      <article>
+        <header>
+          <h2>Title for my blog Post</h2>
+        </header>
+        <section>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </section>
+        <footer>
+          <!-- HTML MICRODATA-->
+          <p itemprop="author">Author: <span itemprop="name">Example Authorson</span></p>
+        </footer>
+      </article>
+    </section>
+  </body>
 </html>
 
-
-
-<!-- 
   ,ad8888ba,    ad88888ba    ad88888ba   
  d8"'    `"8b  d8"     "8b  d8"     "8b  
 d8'            Y8,          Y8,          
@@ -115,28 +125,26 @@ Y8,                    `8b          `8b
  Y8a.    .a8P  Y8a     a8P  Y8a     a8P  
   `"Y8888Y"'    "Y88888P"    "Y88888P"   
                                         
--->
 
 <style type="text/css" media="screen">
-	body{
-		
-	}
-	#id{
-		
-	}
-	.class{
-		
-	}
-	#id > .scope{
-		
-	}
-	.scope:hover{
-		
-	}
+      body{
+    
+      }
+      #id{
+    
+      }
+      .class{
+    
+      }
+      #id > .scope{
+    
+      }
+      .scope:hover{
+    
+      }
+  
 </style>
 
-
-<!-- 
                                                                                                                           
         88        db   8b           d8   db         ad88888ba     ,ad8888ba,   88888888ba   88  88888888ba  888888888888  
         88       d88b  `8b         d8'  d88b       d8"     "8b   d8"'    `"8b  88      "8b  88  88      "8b      88       
@@ -150,9 +158,9 @@ Y8,                    `8b          `8b
 
 <script type="text/javascript" charset="utf-8">
 (function(){
-	
-})();	
-	
+  
+})();  
+  
 </script>
 
 
@@ -170,6 +178,46 @@ Y8,                    `8b          `8b
      88      Y8a.    .a8P   Y8a.    .a8P   Y8a.    .a8P  88        88  
      88       `"Y8888Y"'     `"Y8888Y"'     `"Y8888Y"'   88        88  
 -->
-
+<!-- 
 - http://trentwalton.com/2010/07/05/non-hover/
 - http://www.lukew.com/ff/entry.asp?1137
+
+Touch Events: 
+- Tap
+- Doubletap
+- Drag
+- Flick
+- Pinch
+- Spread
+- Press
+- Press & Tap
+- Press & Drag
+- Rotate
+
+Single vs. Multi finger
+-->
+
+<!-- 
+88888888ba,    88888888888  88888888ba   88        88    ,ad8888ba,   
+88      `"8b   88           88      "8b  88        88   d8"'    `"8b  
+88        `8b  88           88      ,8P  88        88  d8'            
+88         88  88aaaaa      88aaaaaa8P'  88        88  88             
+88         88  88"""""      88""""""8b,  88        88  88      88888  
+88         8P  88           88      `8b  88        88  Y8,        88  
+88      .a8P   88           88      a8P  Y8a.    .a8P   Y8a.    .a88  
+88888888Y"'    88888888888  88888888P"    `"Y8888Y"'     `"Y88888P"   
+-->
+
+
+
+<!-- 
+  ,ad8888ba,    88888888ba  888888888888  88  88b           d88  88  888888888888  88888888888 
+ d8"'    `"8b   88      "8b      88       88  888b         d888  88           ,88  88          
+d8'        `8b  88      ,8P      88       88  88`8b       d8'88  88         ,88"   88          
+88          88  88aaaaaa8P'      88       88  88 `8b     d8' 88  88       ,88"     88aaaaa     
+88          88  88""""""'        88       88  88  `8b   d8'  88  88     ,88"       88"""""     
+Y8,        ,8P  88               88       88  88   `8b d8'   88  88   ,88"         88          
+ Y8a.    .a8P   88               88       88  88    `888'    88  88  88"           88          
+  `"Y8888Y"'    88               88       88  88     `8'     88  88  888888888888  88888888888 
+                                                                                                                                                                                          
+-->
