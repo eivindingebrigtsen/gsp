@@ -14,10 +14,10 @@ Pros:
 	- Flash is independent of browsers and operating systems.  It can be viewed correctly by anyone who has the Flash plug-in.
 	- Flash have higher click-through rates than static gifs.
 	- Flash can be quick to develop
-	- Video works well in Flash applications.  It doesn�t need a plug-in that�s dependent on a specific operating system like MediaPlayer or QuickTime.
+	- Video works well in Flash applications.  It doesn’t need a plug-in that’s dependent on a specific operating system like MediaPlayer or QuickTime.
 
 Cons:
-	-Search engines crawl text, not Flash intros and bannersIt�s tough to get an all-Flash website to rank high in search engines. Search engines have problems indexing images, even text rendered as an image.  HTML pages get indexed in search engines like Google while Flash pages do not.
+	-Search engines crawl text, not Flash intros and bannersIt’s tough to get an all-Flash website to rank high in search engines. Search engines have problems indexing images, even text rendered as an image.  HTML pages get indexed in search engines like Google while Flash pages do not.
 	- Plugin - version control and upgrades for the users
 	- Accessibility
 	- Touch devices 
@@ -39,8 +39,9 @@ Cons:
 88888888P"   88      `8b    `"Y8888Y"'        `8'       `8'        "Y88888P"   88888888888  88      `8b    "Y88888P"   
 
 -->
-Engines: IE, Webkit, Mozilla
+!(The Browser wars)[http://www.favbrowser.com/images/browser-war.png]
 
+Engines: IE, Webkit, Mozilla
 IE 6,7,8,9? 
 Firefox 2,3.x,4?
 Chrome
@@ -50,6 +51,7 @@ Opera 10?
  - The layered cake (HTML, CSS, Javascript)
  - Compatibility
 	http://www.quirksmode.org/compatibility.html
+	http://www.findmebyip.com/litmus/
 
 
 
@@ -181,7 +183,7 @@ Opera 10?
 <xmp>
 
 
- - HTML5 -> Hva er nytt, når kan du bruke det?
+ - HTML5 -> Hva er nytt, n√•r kan du bruke det?
  - Hva kommer RDFa http://www.alistapart.com/articles/introduction-to-rdfa/ 
 
 
@@ -289,13 +291,13 @@ Y8,                    `8b          `8b
 
 
 
-- CSS -> Utseende, og enkel oppførsel
+- CSS -> Utseende, og enkel oppf√∏rsel
  - Selectors, syntax og struktur
 	http://www.456bereastreet.com/archive/200601/css_3_selectors_explained/
 	http://www.456bereastreet.com/archive/201002/forgotten_css_selectors/
  - CSS frameworks (960gs http://960.gs/, blueprint: http://www.blueprintcss.org/)
    
- - CSS 3 -> Quirks, bakoverkompabilitet, browser støtte 
+ - CSS 3 -> Quirks, bakoverkompabilitet, browser st√∏tte 
    http://centricle.com/ref/css/filters/?highlight_columns=true
 
  - @fontface -> the web is more than 8 fonts
@@ -307,7 +309,7 @@ Y8,                    `8b          `8b
 
  - LESS http://lesscss.org/, SASS http://sass-lang.com/, Scaffold http://github.com/anthonyshort/Scaffold
    http://bjorkoy.com/2010/05/css-grids-with-sass/
-
+   http://fadeyev.net/2010/06/19/lessjs-will-obsolete-css
 
                                                                                                                           
         88        db   8b           d8   db         ad88888ba     ,ad8888ba,   88888888ba   88  88888888ba  888888888888  
@@ -327,15 +329,15 @@ Y8,                    `8b          `8b
   
 </script>
 
-- Javascript -> Oppf�rsel
+- Javascript -> Oppførsel
  - Java is to Javascript, what car is to carpet.
 	 Java code needs to be compiled, while JavaScript code are all in text.
  - JS Frameworks (jQuery: http://jquery.com/, YUI: http://developer.yahoo.com/yui/, Mootools: http://mootools.net/, Sencha (ext): http://www.sencha.com/)
- - Ajax: hva er det, og n�r bruker du det?
+ - Ajax: hva er det, og når bruker du det?
 	
  - JSON & JSONP
 	http://json.org/
- - Javascript på serveren (node.js)
+ - Javascript p√• serveren (node.js)
  - Testing av javascript (jsLint, jsTestDriver, YUI testframework)
  - Input escaping, cross site scripting
 
@@ -356,7 +358,7 @@ Y8,                    `8b          `8b
 <!-- 
 - Touch devices
  - A whole new world (keyboard & mus vs. Pekefinger eller flere fingre )
- - Hvordan håndteres det idag, hvordan tilpasser vi sidene?
+ - Hvordan h√•ndteres det idag, hvordan tilpasser vi sidene?
 
 	- http://trentwalton.com/2010/07/05/non-hover/
 	- http://www.lukew.com/ff/entry.asp?1137
@@ -399,7 +401,7 @@ Single vs. Multi finger
  - Sideoptimalisering:
   - Fart betyr noe: http://drp.ly/1kqT2m
   - Minifiering, Css sprites, ySlow og pagespeed.
- - � se p� minifierte filer
+ - Å se på minifierte filer
 	http://jsbeautifier.org/
 
 
