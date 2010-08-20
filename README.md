@@ -71,7 +71,7 @@
 				<body>
 				<br>
 				<button>
-				<canvas>
+				<canvas> http://mrdoob.com/projects/harmony/#simple
 				<caption>
 				<center>
 				<cite>
@@ -379,10 +379,10 @@
 				-->
 
 				- Optimering og debugging
-				 - Firebug, console
-				 - Testing av browsere
-				 - Enkel SEO
-				 - Enkel Accessability
+				 - Firebug, console -> http://getfirebug.com/
+				 - Testing in browsers -> 
+				 - SEO -> http://www.webconfs.com/15-minute-seo.php
+				 - Accessability -> http://www.w3.org/WAI/
 				 - Sideoptimalisering:
 				  - Fart betyr noe: http://drp.ly/1kqT2m
 				  - Minifiering, Css sprites, ySlow og pagespeed.
@@ -409,14 +409,17 @@
 
 				- Flash
 				Pros:
-					- Flash animation is easy to create and easy to view
-					- Flash is independent of browsers and operating systems.  It can be viewed correctly by anyone who has the Flash plug-in.
-					- Flash have higher click-through rates than static gifs.
-					- Flash can be quick to develop
-					- Video works well in Flash applications.  It doesn’t need a plug-in that’s dependent on a specific operating system like MediaPlayer or QuickTime.
+					- Flash animation and effects is easy to create and easy to view
+					- Flash is independent of browsers and operating systems.  
+						It can be viewed correctly by anyone who has the Flash plug-in.
+					- Flash banners have higher click-through rates than static gifs.
+					- Flash can be quick to develop with many existing frameworks/plugins.
+					- Video works well in Flash applications. You can create a video editing suite in flash.
 
 				Cons:
-					-Search engines crawl text, not Flash intros and bannersIt’s tough to get an all-Flash website to rank high in search engines. Search engines have problems indexing images, even text rendered as an image.  HTML pages get indexed in search engines like Google while Flash pages do not.
+					-Search engines crawl text, not Flash intros and bannersIt’s tough to get an all-Flash website
+					 to rank high in search engines. Search engines have problems indexing images, even text 
+					 rendered as an image. HTML pages get indexed in search engines like Google while Flash pages do not.
 					- Plugin - version control and upgrades for the users
 					- Accessibility
 					- Touch devices 

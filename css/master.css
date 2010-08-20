@@ -16,15 +16,15 @@ table, caption, tbody, tfoot, thead, tr, th, td,
 abbr, article, aside, audio, canvas, details, figcaption, 
 figure, footer, header, hgroup, mark, meter, nav, output, 
 progress, section, summary, time, video /* html5 */ {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	font-weight: inherit;
-	font-style: inherit;
-	font-size: 100%;
-	font-family: inherit;
-	vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
 }
 /* html5 reset*/
   nav, section, article, header, aside, footer, figure, dialog, time, progress, mark, output {
@@ -36,31 +36,31 @@ progress, section, summary, time, video /* html5 */ {
 
 /* remember to define focus styles! */
 :focus {
-	outline: 0;
+  outline: 0;
 }
 body {
-	line-height: 1;
-	color: black;
-	background: white;
+  line-height: 1;
+  color: black;
+  background: white;
 }
 ol, ul {
-	list-style: none;
+  list-style: none;
 }
 /* tables still need 'cellspacing="0"' in the markup */
 table {
-	border-collapse: separate;
-	border-spacing: 0;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 caption, th, td {
-	text-align: left;
-	font-weight: normal;
+  text-align: left;
+  font-weight: normal;
 }
 blockquote:before, blockquote:after,
 q:before, q:after {
-	content: "";
+  content: "";
 }
 blockquote, q {
-	quotes: "" "";
+  quotes: "" "";
 }
 
 /* FONTS */ 
@@ -71,60 +71,60 @@ blockquote, q {
     url("font/Fontin_Sans_B_45b.otf") format("opentype"),
 }
 body{
-	font-family: Arial;
-	padding: 25px;
-	font-size: 16px;
-	max-width: 800px;
-	margin: 0 auto;
+  font-family: Arial;
+  padding: 25px;
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 h1, h2, h3, h4, h5, h6{
-	font-family: "CustomFont", Arial;
+  font-family: "CustomFont", Arial;
 }
 h1, h2, h3, h4, h5, h6, p, table, ul{
-		margin: .25em 0 .75em;
+    margin: .25em 0 .75em;
 
 }
 h1{
-	font-size: 2.4em;
+  font-size: 2.4em;
 }
 h2{
-	font-size: 2em;
+  font-size: 2em;
 }
 h3{
-	font-size: 1.8em;
+  font-size: 1.8em;
 }
 h4{
-	font-size: 1.6em;
+  font-size: 1.6em;
 }
 h5{
-	font-size: 1.4em;
+  font-size: 1.4em;
 }
 h6{
-	font-size: 1.2em;
+  font-size: 1.2em;
 }
 
 section{
-	float:left;
-	max-width: 550px;
-	padding: 0 25px;
+  float:left;
+  max-width: 550px;
+  padding: 0 25px;
 }
 aside{
-	float: right;
-	max-width: 200px;
+  float: right;
+  max-width: 200px;
 }
 table{
-	border: 1px solid gray;
-	border-width: 1px 0 0 1px;	
+  border: 1px solid gray;
+  border-width: 1px 0 0 1px;  
 }
 th{
-	background: #EEE;
+  background: #EEE;
 }
 
 td,th{
-	padding: 5px;
-	border: 1px solid gray;
-	border-width: 0 1px 1px 0;
+  padding: 5px;
+  border: 1px solid gray;
+  border-width: 0 1px 1px 0;
 }
 
 

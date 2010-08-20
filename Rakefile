@@ -21,6 +21,7 @@ end
 
 desc "Sass Compile and copy css to minified folder"
 task :css do
+end
 
 desc "Pack all external files"
 task :pack_ext do
