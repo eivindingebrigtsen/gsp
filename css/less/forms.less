@@ -1,0 +1,176 @@
+.box-shadow (@x:0, @y:0, @blur:0, @color:transparent) {
+  -moz-box-shadow: @x @y @blur @color;
+  -webkit-box-shadow: @x @y @blur @color;
+  box-shadow: @x @y @blur @color; 
+}
+
+
+.box-inset(@x:0, @y:0, @blur:2px, @color:#555) {
+  box-shadow: inset @x @y @blur @color;
+  -moz-box-shadow: inset @x @y @blur @color;
+  -webkit-box-shadow: inset @x @y @blur @color; }
+
+.focus (){
+  .box-shadow(0, 0, 5px, #333333);
+  border-color: #66c2f4; }
+
+
+
+form {
+  fieldset {
+    background: #eeeeee; } }
+
+
+fieldset button {
+  font-size: 11px; }
+
+select {
+  clear: right; }
+
+label, .buttons {
+  float: left;
+  clear: both;
+  width: 100%;
+  cursor: pointer; }
+
+label {
+  clear: both;
+  text-align: left;
+  margin: 0;
+  .radio-label {
+    float: left;
+     input {
+      float: left;
+      clear: none; } } }
+
+#fancybox-inner fieldset {
+  border: 0 none; }
+
+fieldset {
+  clear: both;
+  float: left;
+  border: 1px outset silver;
+  padding: 0 3% 1em;
+  margin: 1em 0 1em;
+  width: 92%;
+  fieldset {
+    padding: 0.5em 3% 1em; } }
+
+legend {
+  font-size: 16px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  padding: 0.2em 0; }
+
+.inline {
+  float: left;
+  clear: none;
+  margin-right: 0.5em; }
+
+input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: silver;
+  font-size: 14px;
+  background: white;
+  padding: 2px;
+  .box-inset;
+  [type="text"], [type="email"], [type="number"] {
+    width: 98%;
+    padding: 2px 1%;
+    clear: both;
+    float: left;
+    :focus {
+      outline: none; } }
+  :hover {
+    background: #ffffee;
+    border-color: #aaaaaa; }
+  :focus, .required:focus {
+    .focus; }
+  .required {
+    border-color: #fb1100; }
+  .zip {
+    width: 3em; }
+  .child {
+    width: 2em; }
+  .error {
+    border-color: #cc0000; }
+  .placeholder {
+    color: #999999; } }
+
+textarea {
+  width: ; }
+
+div.zip {
+  float: left;
+  width: 4em;
+  margin-right: 1em; }
+
+.town {
+  float: left;
+  input {
+    
+ } }
+
+span.required {
+  float: right;
+  font-size: 11px;
+  color: #fb1100; }
+
+.input-icon{
+	border: 1px solid #BBB;
+	float: left;
+	padding: 3px 2%;
+	margin: 0;
+	width: 96%;
+  .box-inset(0, 0, 1px, #555555);
+	.focus{
+		.focus;
+	}
+	input{
+		border: 0 none;
+		clear: none;
+		float: left;
+		width: 80%;
+		margin: 0;
+		padding: 0;
+	  .box-inset(0, 0, 0, #FFF);
+		:focus{
+			.box-shadow(0,0,0,#FFF);
+		}
+	}
+	.ui-icon{
+		float: right;
+		clear: none;
+	}
+}
+button, a.button{
+  font-size: 1.4em;
+  display: block;
+  float: left;
+  margin: 0 7px 0 0;
+  background: rgb(245, 245, 245);
+  border: 1px solid rgb(204, 219, 152);
+  border-top: 1px solid rgb(185, 216, 115);
+  border-left: 1px solid rgb(185, 216, 115);
+  text-decoration: none;
+  font-weight: bold;
+  color: #565656;
+  cursor: pointer;
+  padding: 3px 10px 4px 7px;
+  .crisp;
+  .box-shadow(0, 0, 1px, #666666);
+  :hover {
+    color: #14425b;
+    background-color: #e5e5e5;
+    border-color: #777777 #777777 #777777 #777777;
+    .box-shadow(0, 0, 1px, black); 
+	}
+  :active {
+    color: black;
+    background: #66c2f4;
+    border-color: #333333;
+    outline: none;
+    .box-shadow(0, 0, 0, white); 
+	}
+}

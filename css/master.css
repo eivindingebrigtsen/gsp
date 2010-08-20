@@ -1,52 +1,88 @@
-/* RESETS 
-    - eric meyer reset
-    - yui
-    - blueprint
-    - others...  
-Here's a modified version of meyers:
-*/
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, font, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-abbr, article, aside, audio, canvas, details, figcaption, 
-figure, footer, header, hgroup, mark, meter, nav, output, 
-progress, section, summary, time, video /* html5 */ {
+button {
+  font-size: 1.4em;
+  display: block;
+  float: left;
+  margin: 0 7px 0 0;
+  background: #f5f5f5;
+  border: 1px solid #ccdb98;
+  border-top: 1px solid #b9d873;
+  border-left: 1px solid #b9d873;
+  text-decoration: none;
+  font-weight: bold;
+  color: #565656;
+  cursor: pointer;
+  padding: 3px 10px 4px 7px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 0;
+  -webkit-text-stroke: 1px transparent;
+  -moz-box-shadow: 0 0 1px #666666;
+  -webkit-box-shadow: 0 0 1px #666666;
+  box-shadow: 0 0 1px #666666;
+}
+button:hover {
+  color: #14425b;
+  background-color: #e5e5e5;
+  border-color: #777777 #777777 #777777 #777777;
+  -moz-box-shadow: 0 0 1px black;
+  -webkit-box-shadow: 0 0 1px black;
+  box-shadow: 0 0 1px black;
+}
+button:active {
+  color: black;
+  background: #66c2f4;
+  border-color: #333333;
+  outline: none;
+  -moz-box-shadow: 0 0 0 white;
+  -webkit-box-shadow: 0 0 0 white;
+  box-shadow: 0 0 0 white;
+}
+a.button {
+  font-size: 1.4em;
+  display: block;
+  float: left;
+  margin: 0 7px 0 0;
+  background: #f5f5f5;
+  border: 1px solid #ccdb98;
+  border-top: 1px solid #b9d873;
+  border-left: 1px solid #b9d873;
+  text-decoration: none;
+  font-weight: bold;
+  color: #565656;
+  cursor: pointer;
+  padding: 3px 10px 4px 7px;
+  text-shadow: rgba(0, 0, 0, 0.01) 0 0 0;
+  -webkit-text-stroke: 1px transparent;
+  -moz-box-shadow: 0 0 1px #666666;
+  -webkit-box-shadow: 0 0 1px #666666;
+  box-shadow: 0 0 1px #666666;
+}
+a.button:hover {
+  color: #14425b;
+  background-color: #e5e5e5;
+  border-color: #777777 #777777 #777777 #777777;
+  -moz-box-shadow: 0 0 1px black;
+  -webkit-box-shadow: 0 0 1px black;
+  box-shadow: 0 0 1px black;
+}
+a.button:active {
+  color: black;
+  background: #66c2f4;
+  border-color: #333333;
+  outline: none;
+  -moz-box-shadow: 0 0 0 white;
+  -webkit-box-shadow: 0 0 0 white;
+  box-shadow: 0 0 0 white;
+}
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td {
   margin: 0;
   padding: 0;
   border: 0;
-  outline: 0;
+  background: none;
   font-weight: inherit;
   font-style: inherit;
   font-size: 100%;
   font-family: inherit;
   vertical-align: baseline;
 }
-/* html5 reset*/
-  nav, section, article, header, aside, footer, figure, dialog, time, progress, mark, output {
-    display: block; 
-  }
-  time, progress, mark, output {
-    display: inline; 
-  } 
-
-/* remember to define focus styles! */
-:focus {
-  outline: 0;
-}
-body {
-  line-height: 1;
-  color: black;
-  background: white;
-}
-ol, ul {
-  list-style: none;
-}
-/* tables still need 'cellspacing="0"' in the markup */
 table {
   border-collapse: separate;
   border-spacing: 0;
@@ -55,76 +91,347 @@ caption, th, td {
   text-align: left;
   font-weight: normal;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-  content: "";
+table, td, th { vertical-align: middle; }
+blockquote:before { content: ""; }
+blockquote:after { content: ""; }
+q:before { content: ""; }
+q:after { content: ""; }
+blockquote, q { quotes: "" ""; }
+a img { border: none; }
+pre, code, kbd, samp, var, output { white-space: pre; }
+mark { background: #ffffd9; }
+nav, section, article, header, aside, footer, figure, dialog { display: block; }
+time, progress, mark, output { display: inline; }
+body {
+  background: white;
+  font-family: 'Helvetica Neue', helvetica, arial, sans-serif;
 }
-blockquote, q {
-  quotes: "" "";
+.line {
+  zoom: 1;
+  display: block;
 }
-
-/* FONTS */ 
-@font-face {
-  font-family: "CustomFont";
-  src: url("font/Fontin_Sans_B_45b.otf");
-  src: local("☺"),
-    url("font/Fontin_Sans_B_45b.otf") format("opentype"),
+.line:after {
+  content: "\\0020";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+  font-size: 0;
 }
-body{
-  font-family: Arial;
-  padding: 25px;
-  font-size: 16px;
-  max-width: 800px;
-  margin: 0 auto;
+body {
+  margin: 20px;
+  text-rendering: optimizeLegibility;
 }
-
-h1, h2, h3, h4, h5, h6{
-  font-family: "CustomFont", Arial;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+  display: block;
+  clear: both;
 }
-h1, h2, h3, h4, h5, h6, p, table, ul{
-    margin: .25em 0 .75em;
-
+h1 {
+  font-size: 3em;
+  line-height: 1;
+  margin-bottom: 0.25em;
+  letter-spacing: -2px;
 }
-h1{
-  font-size: 2.4em;
-}
-h2{
+h2 {
   font-size: 2em;
+  margin-bottom: 0.25em;
 }
-h3{
-  font-size: 1.8em;
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+  margin-bottom: 1em;
 }
-h4{
-  font-size: 1.6em;
-}
-h5{
-  font-size: 1.4em;
-}
-h6{
+h4 {
   font-size: 1.2em;
+  line-height: 1.25;
+  margin-bottom: 1.25em;
 }
-
-section{
-  float:left;
-  max-width: 550px;
-  padding: 0 25px;
+h5 {
+  font-size: 1em;
+  font-weight: bold;
+  margin-bottom: 1.5em;
 }
-aside{
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+}
+h1 img { margin: 0; }
+h2 img { margin: 0; }
+h3 img { margin: 0; }
+h4 img { margin: 0; }
+h5 img { margin: 0; }
+h6 img { margin: 0; }
+h1 time {
+  font-size: 0.4em;
+  letter-spacing: -2px;
+}
+p { margin: 0 0 1.5em; }
+p img.left {
+  float: left;
+  margin: 1.5em 1.5em 1.5em 0;
+  padding: 0;
+}
+p img.right {
   float: right;
-  max-width: 200px;
+  margin: 1.5em 0 1.5em 1.5em;
 }
-table{
-  border: 1px solid gray;
-  border-width: 1px 0 0 1px;  
+a:focus { text-decoration: underline; }
+a:hover { text-decoration: underline; }
+a { text-decoration: underline; }
+blockquote {
+  margin: 1.5em;
+  font-style: italic;
 }
-th{
-  background: #EEE;
+strong { font-weight: bold; }
+em, dfn { font-style: italic; }
+dfn { font-weight: bold; }
+sup, sub { line-height: 0; }
+abbr, acronym { border-bottom: 1px dotted #666666; }
+address {
+  margin: 0 0 1.5em;
+  font-style: italic;
 }
-
-td,th{
-  padding: 5px;
-  border: 1px solid gray;
-  border-width: 0 1px 1px 0;
+pre {
+  margin: 1.5em 0;
+  white-space: pre;
 }
-
-
+pre, code, tt {
+  font: 1em "andale mono", "lucida console", monospace;
+  line-height: 1.5;
+}
+li ul { margin: 0 1.5em; }
+li ol { margin: 0 1.5em; }
+ul, ol { margin: 0 1.5em 1.5em 1.5em; }
+ul { list-style-type: disc; }
+ol { list-style-type: decimal; }
+dl { margin: 0 0 1.5em 0; }
+dl dt { font-weight: bold; }
+dd { margin-left: 1.5em; }
+.error {
+  background: #fbe3e4;
+  color: #8a1f11;
+  border-color: #fbc2c4;
+}
+.error a { color: #8a1f11; }
+.notice {
+  background: #fff6bf;
+  color: #514721;
+  border-color: #ffd324;
+}
+.notice a { color: #514721; }
+.success {
+  background: #e6efc2;
+  color: #264409;
+  border-color: #c6d880;
+}
+.success a { color: #264409; }
+#notifications {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  margin: 10px 1%;
+  z-index: 10000;
+}
+.note {
+  position: absolute;
+  font-size: 13px;
+  border: 2px solid #dddddd;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin: 0.8em 0;
+  padding: 0.8em;
+  float: left;
+  clear: both;
+  width: 300px;
+}
+form fieldset { background: #eeeeee; }
+fieldset button { font-size: 11px; }
+select { clear: right; }
+label, .buttons {
+  float: left;
+  clear: both;
+  width: 100%;
+  cursor: pointer;
+}
+label {
+  clear: both;
+  text-align: left;
+  margin: 0;
+}
+label .radio-label { float: left; }
+label .radio-label input {
+  float: left;
+  clear: none;
+}
+#fancybox-inner fieldset { border: 0 none; }
+fieldset {
+  clear: both;
+  float: left;
+  border: 1px outset silver;
+  padding: 0 3% 1em;
+  margin: 1em 0 1em;
+  width: 92%;
+}
+fieldset fieldset { padding: 0.5em 3% 1em; }
+legend {
+  font-size: 16px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  padding: 0.2em 0;
+}
+.inline {
+  float: left;
+  clear: none;
+  margin-right: 0.5em;
+}
+input {
+  border-style: solid;
+  border-width: 1px;
+  border-color: silver;
+  font-size: 14px;
+  background: white;
+  padding: 2px;
+  box-shadow: inset 0 0 2px #555555;
+  -moz-box-shadow: inset 0 0 2px #555555;
+  -webkit-box-shadow: inset 0 0 2px #555555;
+}
+input [type="text"] {
+  width: 98%;
+  padding: 2px 1%;
+  clear: both;
+  float: left;
+}
+input [type="text"]:focus { outline: none; }
+input [type="email"] {
+  width: 98%;
+  padding: 2px 1%;
+  clear: both;
+  float: left;
+}
+input [type="email"]:focus { outline: none; }
+input [type="number"] {
+  width: 98%;
+  padding: 2px 1%;
+  clear: both;
+  float: left;
+}
+input [type="number"]:focus { outline: none; }
+input:hover {
+  background: #ffffee;
+  border-color: #aaaaaa;
+}
+input:focus {
+  -moz-box-shadow: 0 0 5px #333333;
+  -webkit-box-shadow: 0 0 5px #333333;
+  box-shadow: 0 0 5px #333333;
+  border-color: #66c2f4;
+}
+input .required:focus {
+  -moz-box-shadow: 0 0 5px #333333;
+  -webkit-box-shadow: 0 0 5px #333333;
+  box-shadow: 0 0 5px #333333;
+  border-color: #66c2f4;
+}
+input .required { border-color: #fb1100; }
+input .zip { width: 3em; }
+input .child { width: 2em; }
+input .error { border-color: #cc0000; }
+input .placeholder { color: #999999; }
+div.zip {
+  float: left;
+  width: 4em;
+  margin-right: 1em;
+}
+.town { float: left; }
+span.required {
+  float: right;
+  font-size: 11px;
+  color: #fb1100;
+}
+.input-icon {
+  border: 1px solid #bbbbbb;
+  float: left;
+  padding: 3px 2%;
+  margin: 0;
+  width: 96%;
+  box-shadow: inset 0 0 1px #555555;
+  -moz-box-shadow: inset 0 0 1px #555555;
+  -webkit-box-shadow: inset 0 0 1px #555555;
+}
+.input-icon .focus {
+  -moz-box-shadow: 0 0 5px #333333;
+  -webkit-box-shadow: 0 0 5px #333333;
+  box-shadow: 0 0 5px #333333;
+  border-color: #66c2f4;
+}
+.input-icon input {
+  border: 0 none;
+  clear: none;
+  float: left;
+  width: 80%;
+  margin: 0;
+  padding: 0;
+  box-shadow: inset 0 0 0 #ffffff;
+  -moz-box-shadow: inset 0 0 0 #ffffff;
+  -webkit-box-shadow: inset 0 0 0 #ffffff;
+}
+.input-icon input:focus {
+  -moz-box-shadow: 0 0 0 #ffffff;
+  -webkit-box-shadow: 0 0 0 #ffffff;
+  box-shadow: 0 0 0 #ffffff;
+}
+.input-icon .ui-icon {
+  float: right;
+  clear: none;
+}
+table {
+  border: 0 none;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin: 0 0 1em;
+}
+td, th {
+  padding: 4px 12px 4px 0;
+  text-align: left;
+  vertical-align: top;
+}
+caption {
+  color: #333333;
+  font-size: 16px;
+  margin-bottom: 5px;
+  padding: 10px 7px 3px;
+  text-align: left;
+}
+thead th {
+  border-top: 0;
+  border-bottom: 2px solid #438fcc;
+  font-weight: bold;
+  padding: 2px 7px;
+  text-align: right;
+}
+tfoot th {
+  border-bottom: 1px solid #438fcc;
+  border-top: 1px solid #438fcc;
+  font-weight: bold;
+  padding: 2px 7px;
+  text-align: right;
+}
+tfoot tr td { border-bottom-width: 2px; }
+tbody tr:nth-child(even) { background: #f6f6f6; }
+tbody td p {
+  float: left;
+  margin: 0;
+}
+tbody td p b {
+  clear: both;
+  float: left;
+  display: block;
+}
+tbody td p small {
+  clear: both;
+  float: left;
+  display: block;
+}

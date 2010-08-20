@@ -1,0 +1,47 @@
+.border-radius(@r: 5px) {
+  -moz-border-radius: @r;
+  -webkit-border-radius: @r;
+  border-radius: @r; }
+
+
+.error {
+  background: #fbe3e4;
+  color: #8a1f11;
+  border-color: #fbc2c4;
+  a {
+    color: #8a1f11; } }
+
+.notice {
+  background: #fff6bf;
+  color: #514721;
+  border-color: #ffd324;
+  a {
+    color: #514721; } }
+
+.success {
+  background: #e6efc2;
+  color: #264409;
+  border-color: #c6d880;
+  a {
+    color: #264409; } }
+
+/* Notifications */
+#notifications {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 98%;
+  margin: 10px 1%;
+  z-index: 10000; }
+
+.note {
+  position: absolute;
+  font-size: 13px;
+  border: 2px solid #dddddd;
+  .border-radius;
+  margin: 0.8em 0;
+  padding: 0.8em;
+  float: left;
+  clear: both;
+  width: 300px; }
+
